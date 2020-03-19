@@ -15,8 +15,10 @@
 
 
 
+    <div class="container">
+      <%= yield %>
+    </div>
 
-    <%= yield %>
     <%= render 'shared/footer' %>
     <% if flash.any? %>
       <script type="text/javascript">
